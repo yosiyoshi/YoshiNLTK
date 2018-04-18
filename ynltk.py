@@ -308,24 +308,25 @@ class Satemize:
             if avs==0, satemmizer in Proto-Indo-Iranian pronunciation;
             else, satemmizer in Avestan pronunciation""")
 
-os = OmnibusStem()
-mr = MCRecon()
-js = JpStem()
-ps = PieStem()
-stm = Satemize()
+#Sample Codes:
 
-ps.stemmer("house")
-os.stemmer("house")
+#os = OmnibusStem()
+#mr = MCRecon()
+#js = JpStem()
+#ps = PieStem()
+#stm = Satemize()
 
-ps.stemmer("earth")
-os.stemmer("earth")
+#ps.stemmer("house")
+#os.stemmer("house")
 
-mr.MCRecLiao("jiang")
-os.stemmer("jiang")
+#ps.stemmer("earth")
+#os.stemmer("earth")
 
-mr.MCRecLiao("zhonghua renmin gongheguo")
-os.stemmer("zhonghua renmin gongheguo")
+#mr.MCRecLiao("jiang")
+#os.stemmer("jiang")
 
-tfe = ThaiForeignEtymolgy()
-tfe.Foreign2Thai("taa aakaasa yaana svarnabhumi", "sk")
+#mr.MCRecLiao("zhonghua renmin gongheguo")
+#os.stemmer("zhonghua renmin gongheguo")
 
+#tfe = ThaiForeignEtymolgy()
+#tfe.Foreign2Thai("taa aakaasa yaana svarnabhumi", "sk")
